@@ -33,7 +33,7 @@ Java     | javac and jar (available in JDK) | tinyspline.jar
 Checkout the repository and cd into it:
 
 ```bash
-git clone git@github.com:msteinbeck/tinyspline.git tinyspline
+git clone https://github.com/msteinbeck/tinyspline.git tinyspline
 cd tinyspline
 ```
 
