@@ -278,7 +278,7 @@ void set_knot_at_exceeding_multiplicity(CuTest *tc)
 	ts_bspline_free(&spline);
 }
 
-CuSuite* get_set_knots_suite()
+CuSuite* get_set_knots_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, set_knots_custom_interval);

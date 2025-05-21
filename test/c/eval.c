@@ -331,7 +331,7 @@ eval_issue_222(CuTest *tc)
 }
 
 CuSuite *
-get_eval_suite()
+get_eval_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, eval_domain_min);

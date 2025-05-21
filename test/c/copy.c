@@ -60,7 +60,7 @@ copy_deboornet_same_ptr(CuTest *tc)
 }
 
 CuSuite *
-get_copy_suite()
+get_copy_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, copy_deboornet_different);

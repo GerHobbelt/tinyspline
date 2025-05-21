@@ -39,7 +39,7 @@ void free_deboornet(CuTest* tc)
 	ts_bspline_free(&spline);
 }
 
-CuSuite* get_free_suite()
+CuSuite* get_free_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, free_bspline);

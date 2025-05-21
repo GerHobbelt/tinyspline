@@ -484,7 +484,7 @@ vector_vec_angle_normalized(CuTest *tc)
 }
 
 CuSuite *
-get_vector_suite()
+get_vector_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, vector_vec2_init);

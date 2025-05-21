@@ -246,7 +246,7 @@ void insert_knot_way_too_many(CuTest *tc)
 	ts_bspline_free(&result);
 }
 
-CuSuite* get_insert_knot_suite()
+CuSuite* get_insert_knot_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, insert_knot_once);

@@ -172,7 +172,7 @@ void elevate_degree_bspline(CuTest *tc)
 	ts_bspline_free(&elevated);
 }
 
-CuSuite* get_elevate_degree_suite()
+CuSuite* get_elevate_degree_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, elevate_degree_point);

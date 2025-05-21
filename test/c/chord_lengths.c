@@ -165,7 +165,7 @@ chord_lengths_too_short(CuTest *tc)
 }
 
 CuSuite *
-get_chord_lengths_suite()
+get_chord_lengths_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, chord_lengths_line);

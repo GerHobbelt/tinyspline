@@ -466,7 +466,7 @@ sub_spline_reverse_entire_spline(CuTest *tc)
 }
 
 CuSuite *
-get_sub_spline_suite()
+get_sub_spline_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, sub_spline_equal_knots);

@@ -165,7 +165,7 @@ void sample_default_num(CuTest *tc)
 	free(points);
 }
 
-CuSuite* get_sample_suite()
+CuSuite* get_sample_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, sample_num_1);

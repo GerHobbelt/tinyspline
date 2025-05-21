@@ -37,7 +37,7 @@ tsReal B[3], v[3], w[3];
 * Modify these lines for experimenting.                 *
 *                                                       *
 ********************************************************/
-void setup()
+void setup(void)
 {
 	size_t k;
 	tsReal mid;
@@ -86,7 +86,7 @@ void setup()
 	}
 }
 
-void tear_down()
+void tear_down(void)
 {
 	ts_bspline_free(&spline);
 	free(ctrlp);

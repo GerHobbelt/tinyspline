@@ -1,29 +1,29 @@
 #include <testutils.h>
 
-CuSuite* get_arr_fill_suite();
-CuSuite* get_free_suite();
-CuSuite* get_new_suite();
-CuSuite* get_move_suite();
-CuSuite* get_eval_suite();
-CuSuite* get_set_knots_suite();
-CuSuite* get_insert_knot_suite();
-CuSuite* get_sample_suite();
-CuSuite* get_to_beziers_suite();
-CuSuite* get_interpolation_suite();
-CuSuite* get_derive_suite();
-CuSuite* get_bisect_suite();
-CuSuite* get_save_load_suite();
-CuSuite* get_elevate_degree_suite();
-CuSuite* get_align_suite();
-CuSuite* get_tension_suite();
-CuSuite* get_morph_suite();
-CuSuite* get_rmf_suite();
-CuSuite* get_vector_suite();
-CuSuite* get_chord_lengths_suite();
-CuSuite* get_copy_suite();
-CuSuite* get_sub_spline_suite();
+CuSuite* get_arr_fill_suite(void);
+CuSuite* get_free_suite(void);
+CuSuite* get_new_suite(void);
+CuSuite* get_move_suite(void);
+CuSuite* get_eval_suite(void);
+CuSuite* get_set_knots_suite(void);
+CuSuite* get_insert_knot_suite(void);
+CuSuite* get_sample_suite(void);
+CuSuite* get_to_beziers_suite(void);
+CuSuite* get_interpolation_suite(void);
+CuSuite* get_derive_suite(void);
+CuSuite* get_bisect_suite(void);
+CuSuite* get_save_load_suite(void);
+CuSuite* get_elevate_degree_suite(void);
+CuSuite* get_align_suite(void);
+CuSuite* get_tension_suite(void);
+CuSuite* get_morph_suite(void);
+CuSuite* get_rmf_suite(void);
+CuSuite* get_vector_suite(void);
+CuSuite* get_chord_lengths_suite(void);
+CuSuite* get_copy_suite(void);
+CuSuite* get_sub_spline_suite(void);
 
-int main()
+int main(void)
 {
 	int fails;
 	CuString *output = CuStringNew();

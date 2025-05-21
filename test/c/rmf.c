@@ -92,7 +92,7 @@ rmf_vectors_of_frames(CuTest *tc)
 }
 
 CuSuite *
-get_rmf_suite()
+get_rmf_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, rmf_vectors_of_frames);

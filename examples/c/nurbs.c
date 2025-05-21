@@ -27,7 +27,7 @@ tsReal u = 0.f;
 * Modify these lines for experimenting.                 *
 *                                                       *
 ********************************************************/
-void setup()
+void setup(void)
 {
 	tsReal *ctrlp, *knots;
 	const tsReal w = (tsReal) (sqrt(2) / 2.f);
@@ -101,7 +101,7 @@ void setup()
 	free(knots);
 }
 
-void tear_down()
+void tear_down(void)
 {
 	ts_bspline_free(&spline);
 }

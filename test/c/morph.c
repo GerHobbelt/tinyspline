@@ -60,7 +60,7 @@ morph_line_to_line(CuTest *tc)
 }
 
 CuSuite *
-get_morph_suite()
+get_morph_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, morph_line_to_line);

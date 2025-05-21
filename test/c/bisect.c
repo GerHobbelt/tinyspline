@@ -357,7 +357,7 @@ void bisect_persnickety(CuTest *tc)
 	ts_deboornet_free(&net);
 }
 
-CuSuite* get_bisect_suite()
+CuSuite* get_bisect_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, bisect_compare_with_eval_x_coordinate);

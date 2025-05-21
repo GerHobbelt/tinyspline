@@ -25,7 +25,7 @@ GLUnurbsObj *theNurb;
 * Modify these lines for experimenting.                 *
 *                                                       *
 ********************************************************/
-void setup()
+void setup(void)
 {
 	tsReal points[15];
 	points[0]  =  1;
@@ -48,7 +48,7 @@ void setup()
 	ts_bspline_print(&spline);
 }
 
-void tear_down()
+void tear_down(void)
 {
 	ts_bspline_free(&spline);
 }

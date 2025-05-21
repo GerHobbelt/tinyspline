@@ -49,7 +49,7 @@ void move_deboornet_different_ptr(CuTest *tc)
 	ts_deboornet_free(&moved);
 }
 
-CuSuite* get_move_suite()
+CuSuite* get_move_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, move_bspline_different_ptr);

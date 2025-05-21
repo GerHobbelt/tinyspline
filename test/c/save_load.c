@@ -73,7 +73,7 @@ void save_load_load_equals_save(CuTest *tc)
 	remove(file);
 }
 
-CuSuite* get_save_load_suite()
+CuSuite* get_save_load_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, save_load_load_equals_save);

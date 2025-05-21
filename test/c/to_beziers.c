@@ -200,7 +200,7 @@ void to_beziers_opened(CuTest *tc)
 	free(knots);
 }
 
-CuSuite* get_to_beziers_suite()
+CuSuite* get_to_beziers_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, to_beziers_issue143);

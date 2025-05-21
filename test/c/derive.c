@@ -473,7 +473,7 @@ void derive_compare_third_derivative_with_three_times(CuTest *tc)
 	ts_bspline_free(&three);
 }
 
-CuSuite* get_derive_suite()
+CuSuite* get_derive_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, derive_sequence_of_four_points);

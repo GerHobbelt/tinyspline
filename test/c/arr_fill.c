@@ -96,7 +96,7 @@ void arr_fill_subset_with_offset(CuTest *tc)
 	___TEARDOWN___
 }
 
-CuSuite* get_arr_fill_suite()
+CuSuite* get_arr_fill_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, arr_fill_size10_negative_integer);

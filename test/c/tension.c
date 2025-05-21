@@ -57,7 +57,7 @@ tension_beta_1(CuTest *tc)
 	ts_bspline_free(&expected);
 }
 
-CuSuite* get_tension_suite()
+CuSuite* get_tension_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, tension_beta_0);

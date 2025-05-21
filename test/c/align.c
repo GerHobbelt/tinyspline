@@ -238,7 +238,7 @@ void align_elevated_with_more_control_points(CuTest *tc)
 	ts_bspline_free(&less_control_points_copy);
 }
 
-CuSuite* get_align_suite()
+CuSuite* get_align_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, align_line_with_spline);

@@ -378,7 +378,7 @@ interpolation_catmull_rom_same_point(CuTest *tc)
 	ts_bspline_free(&point);
 }
 
-CuSuite* get_interpolation_suite()
+CuSuite* get_interpolation_suite(void)
 {
 	CuSuite* suite = CuSuiteNew();
 	SUITE_ADD_TEST(suite, interpolation_cubic_natural);
